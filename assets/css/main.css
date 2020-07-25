@@ -3327,3 +3327,10 @@ input, select, textarea {
 			}
 
 		}
+
+		/*Makes images on home page look better i.e. not squished*/
+		.image img {
+			border-radius: 4px;
+			display: block;
+			object-fit: cover;
+		}
